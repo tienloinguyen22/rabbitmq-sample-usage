@@ -1,1 +1,1 @@
-A repository to demonstrate common use cases with Rabbitmq
+A repository to demonstrate common use cases with RabbitMQ
