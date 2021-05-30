@@ -1,0 +1,12 @@
+version: '3'
+services:
+  rabbitmq-study:
+    container_name: rabbitmq-study
+    image: rabbitmq:3.8.0-management
+    volumes:
+      - rabbitmq-study:/var/lib/rabbitmq
+    ports:
+      - 5672:5672
+      - 15672:15672
+volumes:
+  rabbitmq-study:
